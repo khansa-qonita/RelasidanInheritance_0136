@@ -21,5 +21,8 @@ public:
 void ibu::tambahAnak(anak* pAnak) {
     daftar_anak.push_back(pAnak);
 }
+void ibu::cetakAnak() {
+    cout << "daftar anak dari ibu \"" << this->nama <<"\":\n";
+}
 
 
